@@ -1,0 +1,84 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+    font-family: Bookman old style;
+    font-weight: normal;
+
+}
+
+.wrapper {
+	width: 500px;
+	height: auto;
+	padding: 10px;
+	box-shadow: 5px 5px 5px 5px rgb(194, 204, 194);
+	margin: 20px auto;
+}
+
+.form-btn {
+	border: none;
+	background-color: #a0cac2;
+	padding: 0px 5px;
+	width: 30%;
+	 cursor: pointer; 
+     font-family: Bookman old style;
+     
+}
+
+.form-btn:hover {
+	background-color: #ffe5ba;
+}
+
+.form-chat {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-input {
+	border: 7px solid #a0cac2;
+    padding: 7px 5px;
+	width: 80%;
+	margin-right: 10px;
+	outline: none;
+	font-family: Bookman old style;
+}
+.form-input:focus {
+	border: 7px solid #ffe5ba;
+}
+
+.wrapper-chat {
+	overflow: auto;
+	border: 7px solid #a0cac2;
+	padding: 5px;
+	margin-top: 12px;
+	height: 400px;
+}
+ .messages {
+	border: 5px solid #a0cac2;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 7px;
+	align-self: flex-end;
+    font-family: Bookman old style;
+} 
+
+.user-messages {
+	display: flex;
+	flex-flow: column wrap;
+
+}
+.server-messages, a {
+	cursor: pointer;
+	color: #8b8fb0;
+	text-decoration: none
+}
+.server-messages:hover, a:hover {
+	color: #e1b6db;
+}
+
+.geo-location {
+	margin-left: 6px;
+}
